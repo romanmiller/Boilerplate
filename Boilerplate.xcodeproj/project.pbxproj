@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		042B9A05227B264A00D57BCE /* Boilerplate.h in Headers */ = {isa = PBXBuildFile; fileRef = 042B9A03227B264A00D57BCE /* Boilerplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		042B9A0D227B268E00D57BCE /* Paginator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B9A0C227B268E00D57BCE /* Paginator.swift */; };
+		042B9A2E227C5D9000D57BCE /* Dictionary+Merge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B9A2D227C5D9000D57BCE /* Dictionary+Merge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +17,7 @@
 		042B9A03227B264A00D57BCE /* Boilerplate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Boilerplate.h; sourceTree = "<group>"; };
 		042B9A04227B264A00D57BCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		042B9A0C227B268E00D57BCE /* Paginator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paginator.swift; sourceTree = "<group>"; };
+		042B9A2D227C5D9000D57BCE /* Dictionary+Merge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Merge.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 		042B9A02227B264A00D57BCE /* Boilerplate */ = {
 			isa = PBXGroup;
 			children = (
+				042B9A2C227C5D6800D57BCE /* Dictionary */,
 				042B9A0B227B268100D57BCE /* Paginator */,
 				042B9A03227B264A00D57BCE /* Boilerplate.h */,
 				042B9A04227B264A00D57BCE /* Info.plist */,
@@ -61,6 +64,14 @@
 				042B9A0C227B268E00D57BCE /* Paginator.swift */,
 			);
 			path = Paginator;
+			sourceTree = "<group>";
+		};
+		042B9A2C227C5D6800D57BCE /* Dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				042B9A2D227C5D9000D57BCE /* Dictionary+Merge.swift */,
+			);
+			path = Dictionary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042B9A2E227C5D9000D57BCE /* Dictionary+Merge.swift in Sources */,
 				042B9A0D227B268E00D57BCE /* Paginator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
